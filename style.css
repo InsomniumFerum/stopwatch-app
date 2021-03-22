@@ -1,0 +1,63 @@
+body {
+  font-family: "Averia Serif Libre", cursive;
+}
+
+#watch {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#counter {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.btn-wrapper {
+  position: relative;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 12px;
+  margin: 13px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(167, 154, 154);
+  transition: width 0.4s;
+}
+
+.btn:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  background: brown;
+}
