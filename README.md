@@ -50,7 +50,9 @@ Stores the list of each Lap
 Satisfies JSON Marshaler/Unmarshaler interface
 Handy methods like Print()/Log() to log a function execution time with one step.
 
-<img src="images/project.png" width="1000">
+[Project-Demo](https://gallant-hodgkin-6192c4.netlify.app/)
+
+<img src="images/project.png" width="500">
 
 #### JavaScript Used
 
